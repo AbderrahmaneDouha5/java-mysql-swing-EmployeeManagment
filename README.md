@@ -5,10 +5,12 @@ swing - mySql
 - setup mySql server
 - set the root user password to: f56bsh15vuy
 
-## The mistakes I had make:
+## The mistakes that I had make:
 - I dont close the connections that I establish
 - I dont use connection pool 
 -> which result the endless opening of connections which consume the resources of the machine
+- I create the database tables from the application it self (to understand go to  src/database/maindb.java
+- I create a isolate files for database queries
 
 ## Logging Page:
 you can sign in or create an entirly new account
